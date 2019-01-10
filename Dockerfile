@@ -1,3 +1,2 @@
 FROM nginx
-RUN apt-get update
-RUN apt-get install bash gawk sed grep bc coreutils dnsutils
+RUN apt-get update && apt-get install -y bash gawk sed grep bc coreutils dnsutils
